@@ -9,7 +9,7 @@ const Header = () => {
             // justifyContent: 'space-around',
             margin: "0 auto",
             gap: "180px",
-            margin: "0 0 120px 0"
+            margin: "0 0 120px 0",
         },
         nav: {
             display: "flex",

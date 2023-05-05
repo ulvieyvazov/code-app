@@ -7,7 +7,10 @@ const Footer = () => {
             display: "flex",
         },
         cart: {
-            width: "32%",
+            padding: "52px",
+            width: "15%",
+            // textAlign: "center",
+            margin: "0 auto"
         },
         icon: {
             // position: 'relative',
@@ -18,9 +21,8 @@ const Footer = () => {
         },
         icn: {
             // position: 'absolute',
-            margin: '20px',
+            margin: '30px',
             position: 'apsolute',
-            left: '90px'
         }
     }
 
@@ -28,18 +30,24 @@ const Footer = () => {
         <div className="container" style={styles.container}>
             <div className="cart" style={styles.cart}>
                 <div className="icon" style={styles.icon}>
-                    
-                    
-                    <i class="fa-sharp fa-solid fa-pen icn"></i>
+                    <i class="fa-sharp fa-solid fa-pen icn" style={styles.icn}></i>
                 </div>
                 <h3>Illustration</h3>
                 <p>I provide custom illustration services for contract clients</p>
             </div>
-            <div className="cart">
-
+            <div className="cart" style={styles.cart}>
+            <div className="icon" style={styles.icon}>
+                    <i class="fa-sharp fa-solid fa-pen icn" style={styles.icn}></i>
+                </div>
+                <h3>Illustration</h3>
+                <p>I provide custom illustration services for contract clients</p>
             </div>
-            <div className="cart">
-
+            <div className="cart" style={styles.cart}>
+            <div className="icon" style={styles.icon}>
+                    <i class="fa-sharp fa-solid fa-pen icn" style={styles.icn}></i>
+                </div>
+                <h3>Illustration</h3>
+                <p>I provide custom illustration services for contract clients</p>
             </div>
         </div>
     )
