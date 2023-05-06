@@ -1,10 +1,27 @@
 .footer-container{
-     background-color: red;
-}
-ul li{
-     list-style-type: none;
+     margin-top: 30px;
+     background-color: #1f2d41!important;
+     color: hsla(0,0%,100%,.6)
 }
 
-.top{
-     display: flex;
+.svg{
+     clip-path: polygon(0 85%, 100% 100%, 100% 100%, 0% 100%);
 }
+
+
+ul li{
+     list-style-type: none;
+     cursor: pointer;
+     padding-top: 3px;
+}
+.top{
+     width: 80%;
+     display: flex;
+     gap: 50px;
+     margin: 0 auto;
+}
+.icons *{
+     font-size: 20px;
+     padding: 2px;
+}
+
