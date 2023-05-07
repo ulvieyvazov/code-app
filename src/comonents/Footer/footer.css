@@ -1,0 +1,9 @@
+@media (max-width: 850px) {
+    .cart{
+        width: 100% !important;
+        margin: 0 auto !important;
+    }
+    .icon{
+        margin: 0 auto !important;
+    }
+}

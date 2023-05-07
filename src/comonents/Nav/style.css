@@ -1,27 +1,35 @@
-.footer-container{
+.footer-container {
      margin-top: 30px;
-     background-color: #1f2d41!important;
-     color: hsla(0,0%,100%,.6)
+     background-color: #1f2d41 !important;
+     color: hsla(0, 0%, 100%, .6)
 }
 
-.svg{
+.svg {
      clip-path: polygon(0 85%, 100% 100%, 100% 100%, 0% 100%);
 }
 
 
-ul li{
+ul li {
      list-style-type: none;
      cursor: pointer;
      padding-top: 3px;
 }
-.top{
+
+.top {
      width: 80%;
      display: flex;
      gap: 50px;
+     flex-wrap: wrap;
      margin: 0 auto;
 }
-.icons *{
+
+.icons * {
      font-size: 20px;
      padding: 2px;
 }
 
+@media (max-width: 928px) {
+     .list {
+          display: none !important;
+     }
+}

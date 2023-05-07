@@ -1,0 +1,13 @@
+@media (max-width: 1250px) {
+    .list{
+        display: none !important;
+    }
+    .container{
+        justify-content: space-between;
+    }
+}
+@media (max-width: 765px) {
+    .container{
+        gap: 10px !important;
+    }
+}

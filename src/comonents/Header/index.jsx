@@ -1,8 +1,10 @@
 import { React } from "react";
+import "./header.css"
+
 
 const Header = () => {
-
     const styles = {
+
         container: {
             width: "100%",
             display: "flex",
@@ -35,7 +37,6 @@ const Header = () => {
             borderRadius: "12px",
             fontSize: "large",
         }
-
     }
 
 
@@ -56,9 +57,9 @@ const Header = () => {
                     </ul>
 
                 </div>
-                    <div className="btn" style={styles.btn}>
-                        <button className="button" style={styles.button} >BUY NOW</button>
-                    </div>
+                <div className="btn" style={styles.btn}>
+                    <button className="button" style={styles.button} >BUY NOW</button>
+                </div>
             </div>
         </>
     )

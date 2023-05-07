@@ -1,10 +1,13 @@
 import { React } from "react";
+import "./footer.css";
+
 const Footer = () => {
 
     const styles = {
         container: {
             width: "100%",
             display: "flex",
+            flexWrap: "wrap"
         },
         cart: {
             padding: "52px",
@@ -48,21 +51,21 @@ const Footer = () => {
     return (
         <div className="container" style={styles.container}>
             <div className="cart" style={styles.cart}>
-                <div className="icon1" style={styles.icon1}>
+                <div className="icon icon1" style={styles.icon1}>
                     <i class="fa-sharp fa-solid fa-pen icn" style={styles.icn}></i>
                 </div>
                 <h3>Illustration</h3>
                 <p>I provide custom illustration services for contract clients</p>
             </div>
             <div className="cart" style={styles.cart}>
-                <div className="icon2" style={styles.icon2}>
+                <div className="icon icon2" style={styles.icon2}>
                     <i class="fa-solid fa-bookmark" style={styles.icn}></i>
                 </div>
                 <h3>UI Design</h3>
                 <p>User experience and interface designs is one of my specialties</p>
             </div>
             <div className="cart" style={styles.cart}>
-                <div className="icon3" style={styles.icon3}>
+                <div className="icon icon3" style={styles.icon3}>
                     <i class="fa-solid fa-droplet" style={styles.icn}></i>
                 </div>
                 <h3>Graphic Design</h3>

@@ -28,6 +28,7 @@ const Contact = () => {
       width: "50%",
       display: "flex",
       gap: "30px",
+      flexWrap: "wrap",
       margin: "0 auto",
       padding: "20px 0"
     },
